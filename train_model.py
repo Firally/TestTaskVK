@@ -57,7 +57,7 @@ def fit_model(loss_function, additional_params=None, train_pool=train, test_pool
    
     return model
 
-model = fit_model('QueryRMSE')
+model = fit_model('QuerySoftMax')
 
 ndcg_train = model.score(X_train, y_train, group_id=queries_train, top=len(y_train))
 print(f"NDCG Score on Train Data: {ndcg_train}")
