@@ -4,6 +4,8 @@
 
     git clone https://github.com/Firally/TestTaskVK.git
 
+Сборка:
+
     docker build -t model_name .
 
 Train:
