@@ -1,5 +1,8 @@
 Тестовое задание
 -----------------------------------
+
+Данный проект содержит Jupyter Notebook с решением, а также решение, обернутое в docker.
+
 Как запустить?
 
     git clone https://github.com/Firally/TestTaskVK.git
